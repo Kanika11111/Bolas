@@ -3,10 +3,10 @@
 from ball import Ball
 
 # Create a small red ball
-small_ball = Ball(radius=5, color="red")
+small_ball = Ball(radius=5, color="red", bounce=0.8, position=(0, 2))
 
 # Create a big blue ball
-big_ball = Ball(radius=15, color="blue")
+big_ball = Ball(radius=15, color="blue", bounce=0.5, position=(5, 7))
 
 # Print their details
 print("Small Ball:", small_ball)
